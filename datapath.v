@@ -6,11 +6,11 @@ module datapath (
     input en_sum,
     input en_counter,
     output reg done,
-    output reg [15:0] result
+    output reg [12:0] result
 );
 
     reg [6:0] count;
-    reg [15:0] sum;
+    reg [12:0] sum;
 
 
     always @(posedge clk or negedge rst) begin
