@@ -1,7 +1,8 @@
 module sum1to100 (
     input clk,
     input rst,
-    output [15:0] result,
+    input start,
+    output [12:0] result,
     output finish
 );
 
@@ -10,6 +11,7 @@ module sum1to100 (
     controler controler_unit (
         .clk(clk),
         .rst(rst),
+        .start(start),
         .done(done),
         .ld_sum(ld_sum),
         .ld_counter(ld_counter),
