@@ -1,0 +1,22 @@
+C:/Users/TViasana/UIT/VERILOG/SUM1to100/controller.v {1 {vlog -work work -stats=none C:/Users/TViasana/UIT/VERILOG/SUM1to100/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controler
+
+Top level modules:
+	controler
+
+} {} {}} C:/Users/TViasana/UIT/VERILOG/SUM1to100/main.v {1 {vlog -work work -stats=none C:/Users/TViasana/UIT/VERILOG/SUM1to100/main.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sum1to100
+
+Top level modules:
+	sum1to100
+
+} {} {}} C:/Users/TViasana/UIT/VERILOG/SUM1to100/datapath.v {1 {vlog -work work -stats=none C:/Users/TViasana/UIT/VERILOG/SUM1to100/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}}
