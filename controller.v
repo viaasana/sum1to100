@@ -1,6 +1,7 @@
 module controler (
     input clk,
     input rst,
+    input start,
     input done,
     output reg ld_sum,
     output reg ld_counter,
@@ -26,7 +27,7 @@ module controler (
     //next state logic
     always @(*) begin
         case (state)
-            IDLE: next_state <= COUNT;
+            IDLE: next_state <= start?COUNT:IDLE;
             COUNT: next_state <= (done)?DONE:COUNT;
             DONE: next_state <= DONE;
             default:next_state <= IDLE;
